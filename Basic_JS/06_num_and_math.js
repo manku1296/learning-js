@@ -24,3 +24,11 @@ const rupees = 1000000
 // console.log(Math.floor(5.855)); // output will be floor(5.1/2/3/4/5/6/7/8/9) => 5
 // console.log(Math.min(3, 5, 2, 9)); // Output will be min(3,5,2,9) => 2
 // console.log(Math.max(5,17,8,9)); // Output will be max(5,17,8,9) => 17
+// console.log(Math.random()); // Output will be 0.12146846
+// console.log((Math.random()*10) + 1); // Output will be 2.161464646
+// console.log(Math.floor(Math.random()* 10) + 1); // Output will be in without point.
+
+const min = 10
+const max = 20
+
+// console.log(Math.floor(Math.random()*(max - min + 1)) + min) // Output will be without point 10 Or se upper aati hai..
