@@ -49,10 +49,41 @@ const users = [
 
 // console.log(users[2].email); //Output => mayank@gmail.com
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); // Output => [ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(tinderUser)); // Output => [ '456mno', 'Mayank', false ]
-console.log(Object.entries(tinderUser)); // Output => [ [ 'id', '456mno' ], [ 'name', 'Mayank' ], [ 'isLoggedIn', false ] ]
+// console.log(Object.keys(tinderUser)); // Output => [ 'id', 'name', 'isLoggedIn' ]
+// console.log(Object.values(tinderUser)); // Output => [ '456mno', 'Mayank', false ]
+// console.log(Object.entries(tinderUser)); // Output => [ [ 'id', '456mno' ], [ 'name', 'Mayank' ], [ 'isLoggedIn', false ] ]
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true
+
+
+
+//+++++++++++++++++++++++ JSON Talk and Object Destructuring ++++++++++++++++++++++++++++++
+
+const course = {
+    courseName: "JS in Hindi",
+    courseInstructor: "Mayank",
+    Price: 2000
+}
+
+// course.courseInstructor // Output => Mayank
+
+const {courseInstructor: instructor} = course //Destructuring Method
+// console.log(courseInstructor); // Output => Mayank
+console.log(instructor); // Output => Mayank
+
+//Json Format
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+
+// Json Format in Array with Object
+[
+    {},
+    {},
+    {}
+]
